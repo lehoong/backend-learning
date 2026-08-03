@@ -4,7 +4,7 @@ current_week: 1
 current_phase: Python and Git
 status: in_progress
 hours_per_week: 8
-last_updated: 2026-07-31
+last_updated: 2026-08-03
 next_review_date: 2026-08-02
 ----------------------------
 
@@ -18,10 +18,11 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 
 * [x] Luyện tập list và dictionary bằng `student_records.py`.
 * [x] Đọc và ghi JSON bằng `student_records_json.py`.
+* [x] Đọc và ghi CSV bằng `student_records_csv.py`.
 
 ## Đang thực hiện
 
-* Học đọc và ghi CSV.
+* Học exception.
 
 ## Kiến thức đã có
 
@@ -31,11 +32,10 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 * Điều kiện: chưa đánh giá.
 * Vòng lặp: chưa đánh giá.
 * Function: chưa đánh giá.
-* File JSON/CSV: chưa học trong roadmap.
+* File JSON/CSV: đã thực hành đọc và ghi JSON, CSV cơ bản.
 * OOP: đã từng học nhưng cần ôn lại.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 * List và dictionary: đã thực hành cơ bản qua `student_records.py`.
-* File JSON/CSV: đã thực hành đọc và ghi JSON cơ bản.
 
 ### SQL
 
@@ -52,14 +52,12 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 
 ## Task ưu tiên
 
-1. Hoàn thành setup repository và môi trường Python.
-2. Ôn điều kiện, vòng lặp và function.
-3. Hoàn thành CLI quản lý sinh viên.
+1. Học exception và xử lý input không hợp lệ.
+2. Xây project JSON-to-CSV.
+3. Củng cố CLI quản lý sinh viên.
 
 ## Task kế tiếp
 
-* Đọc và ghi JSON.
-* Đọc và ghi CSV.
 * Học exception.
 * Xây project JSON-to-CSV.
 
@@ -70,9 +68,9 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit gần nhất: `a15f337 Practice reading and writing JSON`.
-* Project đang làm: `exercises/week01/student_records_json.py`
-* Test đã chạy: nhập `a/2`, `b/3`, `c/4`; ghi và đọc lại đúng file `students.json`.
+* Commit trước bài CSV: `a15f337 Practice reading and writing JSON`.
+* Project đang làm: `exercises/week01/student_records_csv.py`
+* Test đã chạy: nhập `a/4`, `b/3`, `c/2`; ghi header và 3 dòng vào `students.csv`, sau đó đọc lại đúng dữ liệu.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên
