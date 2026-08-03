@@ -20,3 +20,13 @@
 - Kiểm tra: nhập `a/2`, `b/3`, `c/4`; kết quả đúng.
 - Vướng mắc: không có.
 - Bước tiếp theo: học đọc và ghi JSON.
+## 2026-08-03 — Đọc và ghi JSON
+
+- Mục tiêu: thực hành lưu dữ liệu Python vào JSON và đọc lại.
+- Đã làm:
+  - Dùng list các dictionary cho dữ liệu sinh viên.
+  - Ghi dữ liệu bằng `json.dump()`.
+  - Đọc dữ liệu bằng `json.load()`.
+- Kiểm tra: dữ liệu `a/2`, `b/3`, `c/4` được ghi và đọc đúng.
+- Vướng mắc: dùng nhầm chuỗi `"file_path"` thay vì biến `file_path`, đã sửa.
+- Bước tiếp theo: học đọc và ghi CSV.

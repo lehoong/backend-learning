@@ -17,10 +17,11 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 ## Đã hoàn thành
 
 * [x] Luyện tập list và dictionary bằng `student_records.py`.
+* [x] Đọc và ghi JSON bằng `student_records_json.py`.
 
 ## Đang thực hiện
 
-* Học đọc và ghi JSON.
+* Học đọc và ghi CSV.
 
 ## Kiến thức đã có
 
@@ -34,6 +35,7 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 * OOP: đã từng học nhưng cần ôn lại.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 * List và dictionary: đã thực hành cơ bản qua `student_records.py`.
+* File JSON/CSV: đã thực hành đọc và ghi JSON cơ bản.
 
 ### SQL
 
@@ -68,10 +70,10 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit gần nhất:  `c5944d3 Complete Week 1 Python setup and student score`.
-* Project đang làm: `exercises/week01/student_records.py`
-* Test đã chạy: nhập `a/2`, `b/3`, `c/4`; chương trình lưu và in đúng 3 dictionary.
-* type hint: chưa chắc
+* Commit gần nhất: `0570790 Practice lists and dictionaries with student records`.
+* Project đang làm: `exercises/week01/student_records_json.py`
+* Test đã chạy: nhập `a/2`, `b/3`, `c/4`; ghi và đọc lại đúng file `students.json`.
+* Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên
 
