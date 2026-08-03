@@ -70,7 +70,7 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit gần nhất: `0570790 Practice lists and dictionaries with student records`.
+* Commit gần nhất: `a15f337 Practice reading and writing JSON`.
 * Project đang làm: `exercises/week01/student_records_json.py`
 * Test đã chạy: nhập `a/2`, `b/3`, `c/4`; ghi và đọc lại đúng file `students.json`.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
