@@ -16,19 +16,11 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 
 ## Đã hoàn thành
 
-* [x] Tạo repository `backend-learning`.
-* [x] Clone repository về máy.
-* [x] Cấu hình Git.
-* [x] Tạo virtual environment `.venv`.
-* [x] Tạo cấu trúc thư mục.
-* [x] Viết `student_score.py`.
-* [x] Push commit đầu tiên.
-* [x] Tạo GitHub Project.
-* [x] Tạo lịch học trong Google Calendar.
+* [x] Luyện tập list và dictionary bằng `student_records.py`.
 
 ## Đang thực hiện
 
-* Setup môi trường Backend.
+* Học đọc và ghi JSON.
 
 ## Kiến thức đã có
 
@@ -41,6 +33,7 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 * File JSON/CSV: chưa học trong roadmap.
 * OOP: đã từng học nhưng cần ôn lại.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
+* List và dictionary: đã thực hành cơ bản qua `student_records.py`.
 
 ### SQL
 
@@ -63,7 +56,6 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 
 ## Task kế tiếp
 
-* Học list và dictionary.
 * Đọc và ghi JSON.
 * Đọc và ghi CSV.
 * Học exception.
@@ -77,8 +69,8 @@ Chưa có.
 
 * Repository: 'backend-learning'
 * Commit gần nhất:  `c5944d3 Complete Week 1 Python setup and student score`.
-* Project đang làm: `exercises/week01/student_score.py`
-* Test đã chạy: GPA `0`, `2.0`, `2.5`, `3.2`, `3.5`, `3.6`, `4.0`; input sai `No` và `10` đều được xử lý đúng.
+* Project đang làm: `exercises/week01/student_records.py`
+* Test đã chạy: nhập `a/2`, `b/3`, `c/4`; chương trình lưu và in đúng 3 dictionary.
 * type hint: chưa chắc
 
 ## Quyết định cần giữ nguyên
