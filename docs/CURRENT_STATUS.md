@@ -22,7 +22,7 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 * [x] Tạo virtual environment `.venv`.
 * [x] Tạo cấu trúc thư mục.
 * [x] Viết `student_score.py`.
-* [ ] Push commit đầu tiên.
+* [x] Push commit đầu tiên.
 * [x] Tạo GitHub Project.
 * [x] Tạo lịch học trong Google Calendar.
 
@@ -40,7 +40,7 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 * Function: chưa đánh giá.
 * File JSON/CSV: chưa học trong roadmap.
 * OOP: đã từng học nhưng cần ôn lại.
-* Type hint: chưa chắc.
+* Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ### SQL
 
@@ -76,7 +76,7 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit gần nhất:  `1888b70 Initial commit`; chưa có commit mới cho bài student score.
+* Commit gần nhất:  `c5944d3 Complete Week 1 Python setup and student score`.
 * Project đang làm: `exercises/week01/student_score.py`
 * Test đã chạy: GPA `0`, `2.0`, `2.5`, `3.2`, `3.5`, `3.6`, `4.0`; input sai `No` và `10` đều được xử lý đúng.
 * type hint: chưa chắc
