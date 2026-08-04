@@ -1,4 +1,5 @@
-def add_student() -> dict:
+from .student import Student
+def add_student() -> Student:
     while True:
         try:
             name = input("Nhập tên sinh viên cần thêm: ").strip()
@@ -13,11 +14,11 @@ def add_student() -> dict:
             break
         except ValueError as e:
             print(f"Lỗi: {e}")
-    return {"name": name, "gpa": gpa}
+    return Student(name, gpa)
 
-def list_student(students) -> None:
+def list_student(students: list) -> None:
     if not students:
         print("Danh sách sinh viên trống!")
         return
     for index, student in enumerate(students, start=1):
-        print(f"STT: {index}, Tên: {student['name']}, GPA: {student['gpa']}")
+        print(f"STT: {index}, Tên: {student.name}, GPA: {student.gpa}")

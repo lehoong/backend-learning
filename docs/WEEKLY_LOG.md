@@ -96,3 +96,15 @@
 - Git evidence: `5d86529 Turn student manager into a package`.
 - Vướng mắc: import cũ `from student_service ...` gây `ModuleNotFoundError`; đã sửa thành relative import.
 - Bước tiếp theo: ôn OOP cơ bản.
+
+## 2026-08-04 — Class Student
+
+- Mục tiêu: luyện class, object, constructor và thuộc tính bằng CLI hiện có.
+- Đã làm:
+  - Tạo `projects/student_manager/student.py` với class `Student`.
+  - Lưu `name` và `gpa` trong `self.name` và `self.gpa`.
+  - Đổi `add_student()` để trả về object `Student` thay vì dictionary.
+  - Đổi `list_student()` sang đọc thuộc tính object.
+- Kiểm tra: thêm `a/2`, in đúng `STT: 1, Tên: a, GPA: 2.0`; danh sách rỗng và thoát đều hoạt động.
+- Vướng mắc: gõ nhầm `project.student_manager.main`; đã sửa thành `projects.student_manager.main`.
+- Bước tiếp theo: củng cố method và type hint bằng class `Student`.
