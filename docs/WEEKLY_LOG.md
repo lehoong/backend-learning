@@ -84,3 +84,14 @@
 - Kiểm tra: thêm `a/2` và xem danh sách hoạt động; danh sách rỗng in thông báo an toàn; chương trình thoát bình thường.
 - Vướng mắc: không có.
 - Bước tiếp theo: học package bằng cách tổ chức lại `student_manager`.
+
+## 2026-08-04 — Package và relative import
+
+- Mục tiêu: tổ chức CLI thành package và hiểu cách chạy module bằng `-m`.
+- Đã làm:
+  - Tạo `projects/__init__.py` và `projects/student_manager/__init__.py`.
+  - Đổi import trong `main.py` thành relative import từ `.student_service`.
+  - Chạy CLI bằng `python -m projects.student_manager.main`.
+- Kiểm tra: danh sách rỗng, thêm `a/2`, xem danh sách và thoát đều hoạt động.
+- Vướng mắc: import cũ `from student_service ...` gây `ModuleNotFoundError`; đã sửa thành relative import.
+- Bước tiếp theo: ôn OOP cơ bản.

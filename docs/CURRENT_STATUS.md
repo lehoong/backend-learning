@@ -12,7 +12,7 @@ next_review_date: 2026-08-09
 
 ## Mục tiêu hiện tại
 
-Học package sau khi đã biết tách code thành module.
+Ôn OOP cơ bản bằng một bài thực hành nhỏ.
 
 ## Đã hoàn thành
 
@@ -23,10 +23,11 @@ Học package sau khi đã biết tách code thành module.
 * [x] Xây project JSON-to-CSV bằng `projects/json_to_csv/convert_students.py`.
 * [x] Xây CLI quản lý sinh viên trong `projects/student_manager/main.py`.
 * [x] Tách các thao tác sinh viên sang module `projects/student_manager/student_service.py`.
+* [x] Tổ chức `student_manager` thành package và chạy bằng `python -m`.
 
 ## Đang thực hiện
 
-* Học package bằng cách tổ chức lại project `student_manager`.
+* Ôn OOP cơ bản bằng một bài thực hành nhỏ.
 
 ## Kiến thức đã có
 
@@ -37,6 +38,7 @@ Học package sau khi đã biết tách code thành module.
 * Vòng lặp: đã thực hành cơ bản trong các bài `student_records*`.
 * Function: đã thực hành cơ bản với `classify_gpa`, `main`, `add_student` và `list_student`.
 * Module: đã tách `add_student` và `list_student` từ `main.py` sang `student_service.py` và import lại.
+* Package: đã tạo `__init__.py`, dùng relative import và chạy `python -m projects.student_manager.main`.
 * File JSON/CSV: đã thực hành đọc, ghi và chuyển đổi JSON sang CSV.
 * OOP: đã từng học nhưng cần ôn lại.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
@@ -58,13 +60,13 @@ Học package sau khi đã biết tách code thành module.
 
 ## Task ưu tiên
 
-1. Học package bằng cách tổ chức lại project `student_manager`.
-2. Chuẩn bị ôn OOP cơ bản.
+1. Ôn OOP cơ bản bằng một bài thực hành nhỏ.
+2. Củng cố type hint cho class và method.
 
 ## Task kế tiếp
 
-* Học package bằng cách tổ chức lại project `student_manager`.
-* Chuẩn bị ôn OOP cơ bản.
+* Ôn OOP cơ bản bằng một bài thực hành nhỏ.
+* Củng cố type hint cho class và method.
 
 ## Vấn đề đang gặp
 
@@ -78,6 +80,7 @@ Chưa có.
 * Test đã chạy: menu sai được báo lỗi; tên rỗng, GPA `abc` và GPA `10` yêu cầu nhập lại; danh sách rỗng an toàn và danh sách có `a/2`, `b/3`, `d/1` được in đúng.
 * Kiểm chứng module: chạy `projects/student_manager/main.py`; import thành công, danh sách rỗng được xử lý và chương trình thoát bình thường.
 * Commit module: `6874a64 Split student manager into a module`; dọn khoảng trắng: `a5a63e0 Remove trailing blank line`.
+* Kiểm chứng package: `python -m projects.student_manager.main` chạy thành công; relative import, danh sách rỗng, thêm sinh viên và thoát đều hoạt động. Thay đổi package đang chờ commit.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên

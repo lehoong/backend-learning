@@ -1,4 +1,4 @@
-from student_service import add_student, list_student
+from .student_service import add_student, list_student
 def main():
     students = []
     while True:
