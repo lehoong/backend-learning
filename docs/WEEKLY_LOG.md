@@ -51,3 +51,14 @@
 - Kiểm tra: thử tên rỗng, `abc`, `10`, sau đó nhập `a/2`, `b/3`, `c/4`; chương trình in đủ 3 sinh viên.
 - Vướng mắc: không có.
 - Bước tiếp theo: xây project JSON-to-CSV.
+
+## 2026-08-04 — Project JSON-to-CSV
+
+- Mục tiêu: kết hợp list/dictionary, JSON và CSV trong một project nhỏ.
+- Đã làm:
+  - Đọc danh sách sinh viên từ `students.json`.
+  - Ghi header và dữ liệu sang `students.csv` bằng `csv.DictWriter`.
+  - In số sinh viên đã chuyển.
+- Kiểm tra: script chuyển 3 sinh viên; JSON và CSV có cùng tên tiếng Việt và GPA.
+- Vướng mắc: đường dẫn hiện tại yêu cầu chạy script từ repository root.
+- Bước tiếp theo: củng cố CLI quản lý sinh viên.

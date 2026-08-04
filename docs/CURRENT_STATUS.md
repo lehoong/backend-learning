@@ -12,7 +12,7 @@ next_review_date: 2026-08-09
 
 ## Mục tiêu hiện tại
 
-Xây project JSON-to-CSV nhỏ từ các kỹ năng list, dictionary, JSON, CSV và exception đã thực hành.
+Củng cố CLI quản lý sinh viên bằng cách tổ chức lại các kỹ năng Python đã học.
 
 ## Đã hoàn thành
 
@@ -20,10 +20,11 @@ Xây project JSON-to-CSV nhỏ từ các kỹ năng list, dictionary, JSON, CSV 
 * [x] Đọc và ghi JSON bằng `student_records_json.py`.
 * [x] Đọc và ghi CSV bằng `student_records_csv.py`.
 * [x] Áp dụng exception và nhập lại dữ liệu không hợp lệ trong `student_records.py`.
+* [x] Xây project JSON-to-CSV bằng `projects/json_to_csv/convert_students.py`.
 
 ## Đang thực hiện
 
-* Xây project JSON-to-CSV.
+* Củng cố CLI quản lý sinh viên.
 
 ## Kiến thức đã có
 
@@ -33,7 +34,7 @@ Xây project JSON-to-CSV nhỏ từ các kỹ năng list, dictionary, JSON, CSV 
 * Điều kiện: đã thực hành cơ bản trong `student_score.py`.
 * Vòng lặp: đã thực hành cơ bản trong các bài `student_records*`.
 * Function: đã thực hành cơ bản với `classify_gpa` và `main`.
-* File JSON/CSV: đã thực hành đọc và ghi JSON, CSV cơ bản.
+* File JSON/CSV: đã thực hành đọc, ghi và chuyển đổi JSON sang CSV.
 * OOP: đã từng học nhưng cần ôn lại.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 * List và dictionary: đã thực hành cơ bản qua `student_records.py`.
@@ -54,13 +55,14 @@ Xây project JSON-to-CSV nhỏ từ các kỹ năng list, dictionary, JSON, CSV 
 
 ## Task ưu tiên
 
-1. Xây project JSON-to-CSV.
-2. Củng cố CLI quản lý sinh viên.
-3. Ôn điều kiện, vòng lặp và function qua project nhỏ.
+1. Củng cố CLI quản lý sinh viên.
+2. Ôn điều kiện, vòng lặp và function qua project nhỏ.
+3. Chuẩn bị học module và package.
 
 ## Task kế tiếp
 
-* Xây project JSON-to-CSV.
+* Củng cố CLI quản lý sinh viên.
+* Chuẩn bị học module và package.
 
 ## Vấn đề đang gặp
 
@@ -69,9 +71,9 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit kiểm chứng bài gần nhất: `669b100 Handle invalid student record input`.
-* Bài gần nhất: `exercises/week01/student_records.py`
-* Test đã chạy: tên rỗng, GPA `abc` và GPA `10` đều báo lỗi; sau đó nhập `a/2`, `b/3`, `c/4` và chương trình in đủ 3 sinh viên.
+* Commit kiểm chứng bài gần nhất: `040d053 Record exception exercise evidence`.
+* Bài gần nhất: `projects/json_to_csv/convert_students.py`
+* Test đã chạy: `convert_students.py` báo đã chuyển 3 sinh viên; JSON và CSV có cùng 3 bản ghi, gồm đúng tên tiếng Việt và GPA.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên
