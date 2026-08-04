@@ -71,7 +71,7 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit kiểm chứng bài gần nhất: `040d053 Record exception exercise evidence`.
+* Commit kiểm chứng bài gần nhất: `253f99d Build JSON to CSV converter`.
 * Bài gần nhất: `projects/json_to_csv/convert_students.py`
 * Test đã chạy: `convert_students.py` báo đã chuyển 3 sinh viên; JSON và CSV có cùng 3 bản ghi, gồm đúng tên tiếng Việt và GPA.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
