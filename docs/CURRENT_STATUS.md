@@ -71,7 +71,7 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit kiểm chứng bài gần nhất: `7ff2e47 Record JSON to CSV evidence`.
+* Commit kiểm chứng bài gần nhất: `8c9e72b Build student manager CLI`.
 * Bài gần nhất: `projects/student_manager/main.py`
 * Test đã chạy: menu sai được báo lỗi; tên rỗng, GPA `abc` và GPA `10` yêu cầu nhập lại; danh sách rỗng an toàn và danh sách có `a/2`, `b/3`, `d/1` được in đúng.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.

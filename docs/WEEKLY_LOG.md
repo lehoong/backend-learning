@@ -71,5 +71,5 @@
   - Tách `add_student`, `list_student` và `main`.
   - Xử lý lựa chọn menu sai và input sinh viên không hợp lệ.
 - Kiểm tra: danh sách rỗng an toàn; thêm nhiều sinh viên hợp lệ; menu sai, tên rỗng, GPA `abc` và GPA `10` đều được xử lý.
-- Vướng mắc: cần xóa khoảng trắng thừa trước khi commit.
+- Vướng mắc: không có; đã kiểm tra khoảng trắng trước khi commit.
 - Bước tiếp theo: ôn điều kiện, vòng lặp và function qua project nhỏ.
