@@ -26,10 +26,11 @@ next_review_date: 2026-08-09
 * [x] Tổ chức `student_manager` thành package và chạy bằng `python -m`.
 * [x] Thay dictionary bằng class `Student` trong CLI quản lý sinh viên.
 * [x] Thêm method `display` và type hint cho class `Student`.
+* [x] Luyện tuple và set trong `exercises/week01/student_collections.py`.
 
 ## Đang thực hiện
 
-* Ôn tuple và set bằng một bài tập ngắn.
+* Học branch và merge cơ bản trong Git.
 
 ## Kiến thức đã có
 
@@ -44,6 +45,7 @@ next_review_date: 2026-08-09
 * File JSON/CSV: đã thực hành đọc, ghi và chuyển đổi JSON sang CSV.
 * OOP: đã tạo class `Student`, constructor `__init__`, thuộc tính `name`, `gpa` và method `display`.
 * Type hint: đã dùng cho `Student`, `add_student`, `list_student` và `display`.
+* Tuple và set: đã tạo tuple `(name, gpa)` và dùng set để lấy tên không trùng.
 * List và dictionary: đã thực hành cơ bản qua `student_records.py` và CLI quản lý sinh viên.
 * Exception: đã áp dụng `try`, `except`, `raise` và vòng lặp nhập lại trong `student_records.py`.
 
@@ -62,13 +64,13 @@ next_review_date: 2026-08-09
 
 ## Task ưu tiên
 
-1. Ôn tuple và set bằng một bài tập ngắn.
-2. Học branch và merge cơ bản trong Git.
+1. Học branch và merge cơ bản trong Git.
+2. Ôn lại toàn bộ workflow commit và push.
 
 ## Task kế tiếp
 
-* Ôn tuple và set bằng một bài tập ngắn.
 * Học branch và merge cơ bản trong Git.
+* Ôn lại toàn bộ workflow commit và push.
 
 ## Vấn đề đang gặp
 
@@ -85,6 +87,7 @@ Chưa có.
 * Kiểm chứng package: `python -m projects.student_manager.main` chạy thành công; relative import, danh sách rỗng, thêm sinh viên và thoát đều hoạt động. Commit: `5d86529 Turn student manager into a package`.
 * Kiểm chứng OOP: `Student` được tạo đúng; CLI thêm `a/2`, in `student.name` và `student.gpa`, danh sách rỗng và thoát đều hoạt động. Commit: `2185fa8 Introduce Student class`.
 * Kiểm chứng method/type hint: `display(index: int) -> str` tạo đúng dòng hiển thị; `list_student(students: list[Student])` chạy thành công với `a/2`. Commit: `deb830f Add Student display method and type hints`.
+* Kiểm chứng tuple/set: 4 tuple được tạo từ bản ghi; set loại tên trùng còn 3 tên; script chạy thành công. Thay đổi đang chờ commit.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên

@@ -121,3 +121,14 @@
 - Git evidence: `deb830f Add Student display method and type hints`.
 - Vướng mắc: không có.
 - Bước tiếp theo: ôn tuple và set.
+
+## 2026-08-04 — Tuple và set
+
+- Mục tiêu: phân biệt tuple có thứ tự với set chứa phần tử duy nhất.
+- Đã làm:
+  - Tạo 4 bản ghi sinh viên, trong đó tên `An` lặp lại.
+  - Chuyển từng bản ghi thành tuple `(name, gpa)` bằng vòng `for` và `.append()`.
+  - Dùng set và `.add()` để lấy tên không trùng.
+- Kiểm tra: danh sách có 4 tuple; set còn 3 tên; `len(unique_names)` in `3`.
+- Vướng mắc: thứ tự khi in set không cố định; kết quả vẫn đúng.
+- Bước tiếp theo: học branch và merge cơ bản trong Git.
