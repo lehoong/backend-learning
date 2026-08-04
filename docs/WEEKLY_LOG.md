@@ -130,5 +130,6 @@
   - Chuyển từng bản ghi thành tuple `(name, gpa)` bằng vòng `for` và `.append()`.
   - Dùng set và `.add()` để lấy tên không trùng.
 - Kiểm tra: danh sách có 4 tuple; set còn 3 tên; `len(unique_names)` in `3`.
+- Git evidence: `830ca8b Practice tuples and sets with student records`.
 - Vướng mắc: thứ tự khi in set không cố định; kết quả vẫn đúng.
 - Bước tiếp theo: học branch và merge cơ bản trong Git.
