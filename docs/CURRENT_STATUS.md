@@ -76,7 +76,8 @@ Chưa có.
 * Commit kiểm chứng CLI: `8c9e72b Build student manager CLI`.
 * Bài gần nhất: `projects/student_manager/main.py`
 * Test đã chạy: menu sai được báo lỗi; tên rỗng, GPA `abc` và GPA `10` yêu cầu nhập lại; danh sách rỗng an toàn và danh sách có `a/2`, `b/3`, `d/1` được in đúng.
-* Kiểm chứng module: chạy `projects/student_manager/main.py`; import thành công, danh sách rỗng được xử lý và chương trình thoát bình thường. Thay đổi module đang chờ commit.
+* Kiểm chứng module: chạy `projects/student_manager/main.py`; import thành công, danh sách rỗng được xử lý và chương trình thoát bình thường.
+* Commit module: `6874a64 Split student manager into a module`; dọn khoảng trắng: `a5a63e0 Remove trailing blank line`.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên

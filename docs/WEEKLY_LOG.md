@@ -38,7 +38,7 @@
   - Dùng `csv.DictReader` để đọc lại CSV.
   - Sử dụng `newline=""` và UTF-8.
 - Kiểm tra: nhập `a/4`, `b/3`, `c/2`; kết quả đọc lại đúng.
-- Vướng mắc: không có.
+- Vướng mắc: `git diff --cached --check` phát hiện một dòng trống thừa ở cuối `student_service.py`; đã sửa và kiểm tra lại trước commit `a5a63e0`.
 - Bước tiếp theo: học exception.
 
 ## 2026-08-04 — Exception và nhập lại dữ liệu
