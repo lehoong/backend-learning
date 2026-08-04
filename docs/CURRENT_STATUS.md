@@ -4,38 +4,40 @@ current_week: 1
 current_phase: Python and Git
 status: in_progress
 hours_per_week: 8
-last_updated: 2026-08-03
-next_review_date: 2026-08-02
+last_updated: 2026-08-04
+next_review_date: 2026-08-09
 ----------------------------
 
 # Current Learning Status
 
 ## Mục tiêu hiện tại
 
-Thiết lập môi trường học Backend và hoàn thành các bài Python đầu tiên.
+Xây project JSON-to-CSV nhỏ từ các kỹ năng list, dictionary, JSON, CSV và exception đã thực hành.
 
 ## Đã hoàn thành
 
 * [x] Luyện tập list và dictionary bằng `student_records.py`.
 * [x] Đọc và ghi JSON bằng `student_records_json.py`.
 * [x] Đọc và ghi CSV bằng `student_records_csv.py`.
+* [x] Áp dụng exception và nhập lại dữ liệu không hợp lệ trong `student_records.py`.
 
 ## Đang thực hiện
 
-* Học exception.
+* Xây project JSON-to-CSV.
 
 ## Kiến thức đã có
 
 ### Python
 
-* Biến và kiểu dữ liệu: chưa đánh giá.
-* Điều kiện: chưa đánh giá.
-* Vòng lặp: chưa đánh giá.
-* Function: chưa đánh giá.
+* Biến và kiểu dữ liệu: đã thực hành cơ bản trong các bài Week 1.
+* Điều kiện: đã thực hành cơ bản trong `student_score.py`.
+* Vòng lặp: đã thực hành cơ bản trong các bài `student_records*`.
+* Function: đã thực hành cơ bản với `classify_gpa` và `main`.
 * File JSON/CSV: đã thực hành đọc và ghi JSON, CSV cơ bản.
 * OOP: đã từng học nhưng cần ôn lại.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 * List và dictionary: đã thực hành cơ bản qua `student_records.py`.
+* Exception: đã áp dụng `try`, `except`, `raise` và vòng lặp nhập lại trong `student_records.py`.
 
 ### SQL
 
@@ -44,7 +46,7 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 
 ### Git
 
-* Chưa xác nhận mức độ thành thạo.
+* Đã thực hành `add`, `commit` và `push`; chưa học branch và merge.
 
 ### Backend
 
@@ -52,13 +54,12 @@ Thiết lập môi trường học Backend và hoàn thành các bài Python đ�
 
 ## Task ưu tiên
 
-1. Học exception và xử lý input không hợp lệ.
-2. Xây project JSON-to-CSV.
-3. Củng cố CLI quản lý sinh viên.
+1. Xây project JSON-to-CSV.
+2. Củng cố CLI quản lý sinh viên.
+3. Ôn điều kiện, vòng lặp và function qua project nhỏ.
 
 ## Task kế tiếp
 
-* Học exception.
 * Xây project JSON-to-CSV.
 
 ## Vấn đề đang gặp
@@ -68,9 +69,9 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit trước bài CSV: `a15f337 Practice reading and writing JSON`.
-* Project đang làm: `exercises/week01/student_records_csv.py`
-* Test đã chạy: nhập `a/4`, `b/3`, `c/2`; ghi header và 3 dòng vào `students.csv`, sau đó đọc lại đúng dữ liệu.
+* Commit gần nhất: `f772f73 Practice reading and writing CSV`.
+* Bài gần nhất: `exercises/week01/student_records.py`
+* Test đã chạy: tên rỗng, GPA `abc` và GPA `10` đều báo lỗi; sau đó nhập `a/2`, `b/3`, `c/4` và chương trình in đủ 3 sinh viên.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên

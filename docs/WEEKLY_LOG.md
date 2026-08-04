@@ -40,3 +40,14 @@
 - Kiểm tra: nhập `a/4`, `b/3`, `c/2`; kết quả đọc lại đúng.
 - Vướng mắc: không có.
 - Bước tiếp theo: học exception.
+
+## 2026-08-04 — Exception và nhập lại dữ liệu
+
+- Mục tiêu: áp dụng `try`, `except`, `raise` và vòng lặp để xử lý input không hợp lệ.
+- Đã làm:
+  - Kiểm tra tên rỗng, GPA không phải số và GPA ngoài khoảng `0–4`.
+  - Hiển thị thông báo lỗi tiếng Việt.
+  - Giữ nguyên sinh viên hiện tại để người dùng nhập lại.
+- Kiểm tra: thử tên rỗng, `abc`, `10`, sau đó nhập `a/2`, `b/3`, `c/4`; chương trình in đủ 3 sinh viên.
+- Vướng mắc: không có.
+- Bước tiếp theo: xây project JSON-to-CSV.

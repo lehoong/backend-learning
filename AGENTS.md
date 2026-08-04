@@ -100,6 +100,12 @@ After a task is completed:
 5. Do not modify `docs/ROADMAP.md` unless the long-term scope changes.
 6. Include relevant file paths and Git evidence in the progress record.
 
+After Codex verifies the Definition of Done, Codex should update `docs/CURRENT_STATUS.md` and `docs/WEEKLY_LOG.md` directly. The learner performs Git commands unless they explicitly ask Codex to do so.
+
+Before committing, stage only the intended files and run `git diff --cached --check`. Do not commit while that command reports trailing whitespace or other errors. After pushing, verify the result with `git status` and the latest `git log --oneline` entry.
+
+Before any Git command that changes state, run `git rev-parse --show-toplevel` and confirm that it prints this repository's root, not a parent directory.
+
 Do not mark a coding task complete without evidence such as:
 
 * Successful command output.

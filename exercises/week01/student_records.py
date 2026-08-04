@@ -1,15 +1,31 @@
 students = []
 
 for i in range(3):
-    name = input(f"Nhập tên học sinh thứ {i+1}: ")
-    gpa = float(input(f"Nhập điểm hệ 4 của học sinh thứ {i+1}: "))
+    n = i + 1
+    while True:
+        try:
+            name = input(f"Nhập tên sinh viên thứ {n}: ").strip()
+            if not name:
+                raise ValueError("Tên sinh viên không được để trống!")
+            try:
+                gpa = float(input(f"Nhập điểm sinh viên thứ {n}: "))
+            except ValueError:
+                raise ValueError("GPA phải là điểm số")
+            if not 0 <= gpa <=4:
+                raise ValueError("GPA nằm trong khoảng từ 0 đến 4")
+
+            break
+
+        except ValueError as e:
+            print(f"Dữ liệu nhập vào không hợp lệ: {e}")
 
     student = {
         "name": name,
         "gpa": gpa
     }
-
     students.append(student)
 
+
+
 for student in students:
-    print(student)
+    print(f"Name: {student['name']}, GPA: {student['gpa']}")
