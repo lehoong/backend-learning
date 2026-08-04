@@ -25,10 +25,11 @@ next_review_date: 2026-08-09
 * [x] Tách các thao tác sinh viên sang module `projects/student_manager/student_service.py`.
 * [x] Tổ chức `student_manager` thành package và chạy bằng `python -m`.
 * [x] Thay dictionary bằng class `Student` trong CLI quản lý sinh viên.
+* [x] Thêm method `display` và type hint cho class `Student`.
 
 ## Đang thực hiện
 
-* Củng cố method và type hint bằng class `Student`.
+* Ôn tuple và set bằng một bài tập ngắn.
 
 ## Kiến thức đã có
 
@@ -41,8 +42,8 @@ next_review_date: 2026-08-09
 * Module: đã tách `add_student` và `list_student` từ `main.py` sang `student_service.py` và import lại.
 * Package: đã tạo `__init__.py`, dùng relative import và chạy `python -m projects.student_manager.main`.
 * File JSON/CSV: đã thực hành đọc, ghi và chuyển đổi JSON sang CSV.
-* OOP: đã tạo class `Student`, constructor `__init__`, thuộc tính `name` và `gpa`.
-* Type hint: đã thực hành cơ bản trong `classify_gpa`.
+* OOP: đã tạo class `Student`, constructor `__init__`, thuộc tính `name`, `gpa` và method `display`.
+* Type hint: đã dùng cho `Student`, `add_student`, `list_student` và `display`.
 * List và dictionary: đã thực hành cơ bản qua `student_records.py` và CLI quản lý sinh viên.
 * Exception: đã áp dụng `try`, `except`, `raise` và vòng lặp nhập lại trong `student_records.py`.
 
@@ -61,13 +62,13 @@ next_review_date: 2026-08-09
 
 ## Task ưu tiên
 
-1. Củng cố method và type hint bằng class `Student`.
-2. Ôn tuple và set.
+1. Ôn tuple và set bằng một bài tập ngắn.
+2. Học branch và merge cơ bản trong Git.
 
 ## Task kế tiếp
 
-* Củng cố method và type hint bằng class `Student`.
-* Ôn tuple và set.
+* Ôn tuple và set bằng một bài tập ngắn.
+* Học branch và merge cơ bản trong Git.
 
 ## Vấn đề đang gặp
 
@@ -83,6 +84,7 @@ Chưa có.
 * Commit module: `6874a64 Split student manager into a module`; dọn khoảng trắng: `a5a63e0 Remove trailing blank line`.
 * Kiểm chứng package: `python -m projects.student_manager.main` chạy thành công; relative import, danh sách rỗng, thêm sinh viên và thoát đều hoạt động. Commit: `5d86529 Turn student manager into a package`.
 * Kiểm chứng OOP: `Student` được tạo đúng; CLI thêm `a/2`, in `student.name` và `student.gpa`, danh sách rỗng và thoát đều hoạt động. Commit: `2185fa8 Introduce Student class`.
+* Kiểm chứng method/type hint: `display(index: int) -> str` tạo đúng dòng hiển thị; `list_student(students: list[Student])` chạy thành công với `a/2`. Thay đổi đang chờ commit.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên

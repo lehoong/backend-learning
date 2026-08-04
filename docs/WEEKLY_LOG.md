@@ -109,3 +109,14 @@
 - Git evidence: `2185fa8 Introduce Student class`.
 - Vướng mắc: gõ nhầm `project.student_manager.main`; đã sửa thành `projects.student_manager.main`.
 - Bước tiếp theo: củng cố method và type hint bằng class `Student`.
+
+## 2026-08-04 — Method và type hint cho Student
+
+- Mục tiêu: luyện method instance và type hint trong class.
+- Đã làm:
+  - Thêm `Student.display(index: int) -> str`.
+  - Để method tạo chuỗi hiển thị từ `self.name` và `self.gpa`.
+  - Đổi `list_student` thành `list[Student]` và gọi `student.display(index)`.
+- Kiểm tra: thêm `a/2`, xem danh sách in đúng `STT: 1, Tên: a, GPA: 2.0`, rồi thoát.
+- Vướng mắc: không có.
+- Bước tiếp theo: ôn tuple và set.

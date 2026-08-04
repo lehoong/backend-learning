@@ -16,9 +16,9 @@ def add_student() -> Student:
             print(f"Lỗi: {e}")
     return Student(name, gpa)
 
-def list_student(students: list) -> None:
+def list_student(students: list[Student]) -> None:
     if not students:
         print("Danh sách sinh viên trống!")
         return
     for index, student in enumerate(students, start=1):
-        print(f"STT: {index}, Tên: {student.name}, GPA: {student.gpa}")
+        print(student.display(index))
