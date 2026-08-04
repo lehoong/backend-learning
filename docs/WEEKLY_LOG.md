@@ -93,5 +93,6 @@
   - Đổi import trong `main.py` thành relative import từ `.student_service`.
   - Chạy CLI bằng `python -m projects.student_manager.main`.
 - Kiểm tra: danh sách rỗng, thêm `a/2`, xem danh sách và thoát đều hoạt động.
+- Git evidence: `5d86529 Turn student manager into a package`.
 - Vướng mắc: import cũ `from student_service ...` gây `ModuleNotFoundError`; đã sửa thành relative import.
 - Bước tiếp theo: ôn OOP cơ bản.
