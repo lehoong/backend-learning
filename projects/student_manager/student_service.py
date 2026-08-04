@@ -21,4 +21,3 @@ def list_student(students) -> None:
         return
     for index, student in enumerate(students, start=1):
         print(f"STT: {index}, Tên: {student['name']}, GPA: {student['gpa']}")
-
