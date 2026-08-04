@@ -106,5 +106,6 @@
   - Đổi `add_student()` để trả về object `Student` thay vì dictionary.
   - Đổi `list_student()` sang đọc thuộc tính object.
 - Kiểm tra: thêm `a/2`, in đúng `STT: 1, Tên: a, GPA: 2.0`; danh sách rỗng và thoát đều hoạt động.
+- Git evidence: `2185fa8 Introduce Student class`.
 - Vướng mắc: gõ nhầm `project.student_manager.main`; đã sửa thành `projects.student_manager.main`.
 - Bước tiếp theo: củng cố method và type hint bằng class `Student`.

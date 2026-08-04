@@ -82,7 +82,7 @@ Chưa có.
 * Kiểm chứng module: chạy `projects/student_manager/main.py`; import thành công, danh sách rỗng được xử lý và chương trình thoát bình thường.
 * Commit module: `6874a64 Split student manager into a module`; dọn khoảng trắng: `a5a63e0 Remove trailing blank line`.
 * Kiểm chứng package: `python -m projects.student_manager.main` chạy thành công; relative import, danh sách rỗng, thêm sinh viên và thoát đều hoạt động. Commit: `5d86529 Turn student manager into a package`.
-* Kiểm chứng OOP: `Student` được tạo đúng; CLI thêm `a/2`, in `student.name` và `student.gpa`, danh sách rỗng và thoát đều hoạt động. Thay đổi OOP đang chờ commit.
+* Kiểm chứng OOP: `Student` được tạo đúng; CLI thêm `a/2`, in `student.name` và `student.gpa`, danh sách rỗng và thoát đều hoạt động. Commit: `2185fa8 Introduce Student class`.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên
