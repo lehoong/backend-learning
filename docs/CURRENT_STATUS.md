@@ -27,10 +27,11 @@ next_review_date: 2026-08-09
 * [x] Thay dictionary bằng class `Student` trong CLI quản lý sinh viên.
 * [x] Thêm method `display` và type hint cho class `Student`.
 * [x] Luyện tuple và set trong `exercises/week01/student_collections.py`.
+* [x] Thực hành branch, commit và merge trong Git.
 
 ## Đang thực hiện
 
-* Học branch và merge cơ bản trong Git.
+* Tổng kết Week 1 bằng các bằng chứng đã hoàn thành.
 
 ## Kiến thức đã có
 
@@ -56,7 +57,7 @@ next_review_date: 2026-08-09
 
 ### Git
 
-* Đã thực hành `add`, `commit` và `push`; chưa học branch và merge.
+* Đã thực hành `add`, `commit`, `push`, branch và merge.
 
 ### Backend
 
@@ -64,13 +65,13 @@ next_review_date: 2026-08-09
 
 ## Task ưu tiên
 
-1. Học branch và merge cơ bản trong Git.
-2. Ôn lại toàn bộ workflow commit và push.
+1. Tổng kết Week 1 bằng các bằng chứng đã hoàn thành.
+2. Chuẩn bị học SQL cơ bản theo roadmap.
 
 ## Task kế tiếp
 
-* Học branch và merge cơ bản trong Git.
-* Ôn lại toàn bộ workflow commit và push.
+* Tổng kết Week 1 bằng các bằng chứng đã hoàn thành.
+* Chuẩn bị học SQL cơ bản theo roadmap.
 
 ## Vấn đề đang gặp
 
@@ -88,6 +89,7 @@ Chưa có.
 * Kiểm chứng OOP: `Student` được tạo đúng; CLI thêm `a/2`, in `student.name` và `student.gpa`, danh sách rỗng và thoát đều hoạt động. Commit: `2185fa8 Introduce Student class`.
 * Kiểm chứng method/type hint: `display(index: int) -> str` tạo đúng dòng hiển thị; `list_student(students: list[Student])` chạy thành công với `a/2`. Commit: `deb830f Add Student display method and type hints`.
 * Kiểm chứng tuple/set: 4 tuple được tạo từ bản ghi; set loại tên trùng còn 3 tên; script chạy thành công. Commit: `830ca8b Practice tuples and sets with student records`.
+* Kiểm chứng Git: tạo branch `practice/git-branch-merge`, tạo commit riêng trên branch và `main`, merge không conflict thành `7e85857`, push thành công; `git status` sạch.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên

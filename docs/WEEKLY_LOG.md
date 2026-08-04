@@ -133,3 +133,15 @@
 - Git evidence: `830ca8b Practice tuples and sets with student records`.
 - Vướng mắc: thứ tự khi in set không cố định; kết quả vẫn đúng.
 - Bước tiếp theo: học branch và merge cơ bản trong Git.
+
+## 2026-08-04 — Branch và merge Git
+
+- Mục tiêu: thực hành branch, commit riêng trên hai nhánh và merge vào `main`.
+- Đã làm:
+  - Tạo branch `practice/git-branch-merge`.
+  - Commit `3461546` trên branch và `c4d4a8f` trên `main`.
+  - Merge branch vào `main` bằng merge commit `7e85857`.
+  - Push `main` và xác nhận `origin/main` trỏ tới merge commit.
+- Kiểm tra: `git log --graph` hiển thị hai nhánh; merge không conflict; working tree sạch.
+- Vướng mắc: file note ban đầu rỗng, đã bổ sung nội dung và amend commit trước khi merge.
+- Bước tiếp theo: tổng kết Week 1 bằng các bằng chứng đã hoàn thành.
