@@ -84,7 +84,7 @@ Chưa có.
 * Commit module: `6874a64 Split student manager into a module`; dọn khoảng trắng: `a5a63e0 Remove trailing blank line`.
 * Kiểm chứng package: `python -m projects.student_manager.main` chạy thành công; relative import, danh sách rỗng, thêm sinh viên và thoát đều hoạt động. Commit: `5d86529 Turn student manager into a package`.
 * Kiểm chứng OOP: `Student` được tạo đúng; CLI thêm `a/2`, in `student.name` và `student.gpa`, danh sách rỗng và thoát đều hoạt động. Commit: `2185fa8 Introduce Student class`.
-* Kiểm chứng method/type hint: `display(index: int) -> str` tạo đúng dòng hiển thị; `list_student(students: list[Student])` chạy thành công với `a/2`. Thay đổi đang chờ commit.
+* Kiểm chứng method/type hint: `display(index: int) -> str` tạo đúng dòng hiển thị; `list_student(students: list[Student])` chạy thành công với `a/2`. Commit: `deb830f Add Student display method and type hints`.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên

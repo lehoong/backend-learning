@@ -118,5 +118,6 @@
   - Để method tạo chuỗi hiển thị từ `self.name` và `self.gpa`.
   - Đổi `list_student` thành `list[Student]` và gọi `student.display(index)`.
 - Kiểm tra: thêm `a/2`, xem danh sách in đúng `STT: 1, Tên: a, GPA: 2.0`, rồi thoát.
+- Git evidence: `deb830f Add Student display method and type hints`.
 - Vướng mắc: không có.
 - Bước tiếp theo: ôn tuple và set.
