@@ -73,3 +73,14 @@
 - Kiểm tra: danh sách rỗng an toàn; thêm nhiều sinh viên hợp lệ; menu sai, tên rỗng, GPA `abc` và GPA `10` đều được xử lý.
 - Vướng mắc: không có; đã kiểm tra khoảng trắng trước khi commit.
 - Bước tiếp theo: ôn điều kiện, vòng lặp và function qua project nhỏ.
+
+## 2026-08-04 — Tách CLI thành module
+
+- Mục tiêu: hiểu module và `import` bằng cách tách code của CLI hiện có.
+- Đã làm:
+  - Tạo `projects/student_manager/student_service.py`.
+  - Chuyển `add_student` và `list_student` sang module mới.
+  - Import hai hàm đó trong `main.py`; menu và danh sách `students` vẫn ở `main.py`.
+- Kiểm tra: thêm `a/2` và xem danh sách hoạt động; danh sách rỗng in thông báo an toàn; chương trình thoát bình thường.
+- Vướng mắc: không có.
+- Bước tiếp theo: học package bằng cách tổ chức lại `student_manager`.
