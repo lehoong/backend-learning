@@ -69,7 +69,7 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit gần nhất: `f772f73 Practice reading and writing CSV`.
+* Commit kiểm chứng bài gần nhất: `669b100 Handle invalid student record input`.
 * Bài gần nhất: `exercises/week01/student_records.py`
 * Test đã chạy: tên rỗng, GPA `abc` và GPA `10` đều báo lỗi; sau đó nhập `a/2`, `b/3`, `c/4` và chương trình in đủ 3 sinh viên.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
