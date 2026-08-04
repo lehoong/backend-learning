@@ -62,3 +62,14 @@
 - Kiểm tra: script chuyển 3 sinh viên; JSON và CSV có cùng tên tiếng Việt và GPA.
 - Vướng mắc: đường dẫn hiện tại yêu cầu chạy script từ repository root.
 - Bước tiếp theo: củng cố CLI quản lý sinh viên.
+
+## 2026-08-04 — CLI quản lý sinh viên
+
+- Mục tiêu: kết hợp function, menu, list/dictionary và exception trong một CLI chạy trong bộ nhớ.
+- Đã làm:
+  - Tạo menu thêm sinh viên, xem danh sách và thoát.
+  - Tách `add_student`, `list_student` và `main`.
+  - Xử lý lựa chọn menu sai và input sinh viên không hợp lệ.
+- Kiểm tra: danh sách rỗng an toàn; thêm nhiều sinh viên hợp lệ; menu sai, tên rỗng, GPA `abc` và GPA `10` đều được xử lý.
+- Vướng mắc: cần xóa khoảng trắng thừa trước khi commit.
+- Bước tiếp theo: ôn điều kiện, vòng lặp và function qua project nhỏ.

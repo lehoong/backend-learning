@@ -12,7 +12,7 @@ next_review_date: 2026-08-09
 
 ## Mục tiêu hiện tại
 
-Củng cố CLI quản lý sinh viên bằng cách tổ chức lại các kỹ năng Python đã học.
+Ôn điều kiện, vòng lặp và function qua các project Python nhỏ.
 
 ## Đã hoàn thành
 
@@ -21,10 +21,11 @@ Củng cố CLI quản lý sinh viên bằng cách tổ chức lại các kỹ n
 * [x] Đọc và ghi CSV bằng `student_records_csv.py`.
 * [x] Áp dụng exception và nhập lại dữ liệu không hợp lệ trong `student_records.py`.
 * [x] Xây project JSON-to-CSV bằng `projects/json_to_csv/convert_students.py`.
+* [x] Xây CLI quản lý sinh viên trong `projects/student_manager/main.py`.
 
 ## Đang thực hiện
 
-* Củng cố CLI quản lý sinh viên.
+* Ôn điều kiện, vòng lặp và function qua project nhỏ.
 
 ## Kiến thức đã có
 
@@ -33,11 +34,11 @@ Củng cố CLI quản lý sinh viên bằng cách tổ chức lại các kỹ n
 * Biến và kiểu dữ liệu: đã thực hành cơ bản trong các bài Week 1.
 * Điều kiện: đã thực hành cơ bản trong `student_score.py`.
 * Vòng lặp: đã thực hành cơ bản trong các bài `student_records*`.
-* Function: đã thực hành cơ bản với `classify_gpa` và `main`.
+* Function: đã thực hành cơ bản với `classify_gpa`, `main`, `add_student` và `list_student`.
 * File JSON/CSV: đã thực hành đọc, ghi và chuyển đổi JSON sang CSV.
 * OOP: đã từng học nhưng cần ôn lại.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
-* List và dictionary: đã thực hành cơ bản qua `student_records.py`.
+* List và dictionary: đã thực hành cơ bản qua `student_records.py` và CLI quản lý sinh viên.
 * Exception: đã áp dụng `try`, `except`, `raise` và vòng lặp nhập lại trong `student_records.py`.
 
 ### SQL
@@ -55,13 +56,12 @@ Củng cố CLI quản lý sinh viên bằng cách tổ chức lại các kỹ n
 
 ## Task ưu tiên
 
-1. Củng cố CLI quản lý sinh viên.
-2. Ôn điều kiện, vòng lặp và function qua project nhỏ.
-3. Chuẩn bị học module và package.
+1. Ôn điều kiện, vòng lặp và function qua project nhỏ.
+2. Chuẩn bị học module và package.
 
 ## Task kế tiếp
 
-* Củng cố CLI quản lý sinh viên.
+* Ôn điều kiện, vòng lặp và function qua project nhỏ.
 * Chuẩn bị học module và package.
 
 ## Vấn đề đang gặp
@@ -71,9 +71,9 @@ Chưa có.
 ## Bằng chứng tiến độ
 
 * Repository: 'backend-learning'
-* Commit kiểm chứng bài gần nhất: `253f99d Build JSON to CSV converter`.
-* Bài gần nhất: `projects/json_to_csv/convert_students.py`
-* Test đã chạy: `convert_students.py` báo đã chuyển 3 sinh viên; JSON và CSV có cùng 3 bản ghi, gồm đúng tên tiếng Việt và GPA.
+* Commit kiểm chứng bài gần nhất: `7ff2e47 Record JSON to CSV evidence`.
+* Bài gần nhất: `projects/student_manager/main.py`
+* Test đã chạy: menu sai được báo lỗi; tên rỗng, GPA `abc` và GPA `10` yêu cầu nhập lại; danh sách rỗng an toàn và danh sách có `a/2`, `b/3`, `d/1` được in đúng.
 * Type hint: đã thực hành cơ bản trong `classify_gpa`.
 
 ## Quyết định cần giữ nguyên
